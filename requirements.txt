@@ -1,0 +1,5 @@
+pyrotgfork
+pytgcrypto
+defusedxml
+ffmpeg-python
+typing_extensions

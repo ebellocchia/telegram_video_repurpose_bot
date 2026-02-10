@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<translation>
+    <sentence id="ALIVE_MSG">✅ The bot is alive.</sentence>
+    <sentence id="NO_USERNAME_ERR_MSG">❌ You shall set a username for using the bot.</sentence>
+    <sentence id="LOADING_MSG">⏳ Loading...</sentence>
+    <sentence id="USER_AUTH_BOT_ERR_MSG">**ERROR**
+❌ You are not authorized to use the bot.</sentence>
+
+    <sentence id="GENERIC_ERR_MSG">❌ An unexpected error occurred.
+
+Try again in a moment.
+
+🆘 If the problem persists, contact: {bot_support}</sentence>
+
+    <sentence id="START_MENU_MSG">**MAIN MENU**
+Hi {name},
+welcome to the **Telegram Video Repurpose Bot**.
+
+👉 Use the buttons below to interact with the bot
+
+ℹ️ You can show this message at any moment by typing /help</sentence>
+
+    <sentence id="CONFIG_MAIN_MENU_MSG">**📝 BOT CONFIGURATION**
+Select the configuration type:</sentence>
+    <sentence id="CONFIG_FILTER_ACTION_SELECT_MSG">**⚙️ FILTER CONFIGURATION**
+Select the function:</sentence>
+    <sentence id="CONFIG_FILTER_SELECT_MSG">**⚙️ FILTER CONFIGURATION**
+Select the filter type:</sentence>
+    <sentence id="CONFIG_FILTER_PARAM_SELECT_MSG">**⚙️ FILTER CONFIGURATION**
+Select the __{filter_name}__ filter parameter:</sentence>
+    <sentence id="CONFIG_FILTER_PARAM_SET_MSG">**⚙️ FILTER CONFIGURATION**
+Set the value of the parameter __{param_name}__ for filter __{filter_name}__:</sentence>
+    <sentence id="CONFIG_FILTER_PARAM_TOGGLE_MSG">**⚙️ FILTER CONFIGURATION**
+Current status of filter __{filter_name}__: **{curr_status}**</sentence>
+    <sentence id="CONFIG_FILTER_PARAM_SET_MSG">**⚙️ FILTER CONFIGURATION**
+Current value(s) of parameter __{param_name}__ for filter __{filter_name}__: **{param_val}**
+
+__Accepted range:__ **{param_lim}**
+
+Enter the new value or min/max values (separated by a space) in chat.
+
+{err_msg}</sentence>
+    <sentence id="CONFIG_FILTER_PARAM_UNNAMED_SET_MSG">**⚙️ FILTER CONFIGURATION**
+Current value(s) of filter __{filter_name}__: **{param_val}**
+
+__Accepted range:__ **{param_lim}**
+
+Enter the new value or min/max values (separated by a space) in chat.
+
+{err_msg}</sentence>
+<sentence id="CONFIG_FILTER_PARAM_SET_ERR_MSG">❌ The inserted value is not valid.</sentence>
+
+    <sentence id="CONFIG_PARAMS_MANAGE_MSG">**⚙️ PARAMETERS CONFIGURATION**
+Select the function:</sentence>
+    <sentence id="CONFIG_PARAMS_LOADED_MSG">**⚙️ PARAMETERS CONFIGURATION**
+✅️ Parameters successfully loaded.</sentence>
+    <sentence id="CONFIG_PARAMS_SAVED_MSG">**⚙️ PARAMETERS CONFIGURATION**
+✅️ Parameters successfully saved.</sentence>
+    <sentence id="CONFIG_PARAMS_SHOW_MSG">**🔍 PARAMETERS STATUS**
+```
+{params_str}
+```</sentence>
+
+    <sentence id="CONFIG_BOT_ACCESS_MSG">**⚙️ USERS CONFIGURATION**
+Select the function:</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_ADD_MSG">**⚙️ USERS CONFIGURATION**
+Enter the usernames of the users to add, separated by a space.
+
+**NOTE:** Usernames are not checked for existence</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_REMOVE_MSG">**⚙️ USERS CONFIGURATION**
+Enter the usernames of the users to remove, separated by a space:</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_ADDED_MSG">**⚙️ USERS CONFIGURATION**
+✅ Authorized users updated.</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_REMOVED_MSG">**⚙️ USERS CONFIGURATION**
+✅ Authorized users updated.</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_SHOW_EMPTY_MSG">**⚙️ USERS CONFIGURATION**
+ℹ️ The list of authorized users is empty.</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_SHOW_MSG">**⚙️ USERS CONFIGURATION**
+
+ℹ️ Users count: **{auth_users_cnt}**
+
+Users list:
+{auth_users_list}</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_INPUT_ERR_MSG">**⚙️ USERS CONFIGURATION**
+❌ One or more of the entered usernames are invalid.</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_NOT_EXISTENT_ERR_MSG">**⚙️ USERS CONFIGURATION**
+❌ One or more usernames were not found in the authorized users list.</sentence>
+
+    <sentence id="INFO_BOT_MSG">**ℹ️ ABOUT BOT**
+
+**Telegram Video Repurpose Bot**
+
+• Author: __@emanueleb88__
+• Version: __{version}__</sentence>
+
+    <sentence id="REPURPOSE_VIDEO_START_MSG">**🎥 PROCESS VIDEO**
+To process a video, send the file in chat.</sentence>
+    <sentence id="REPURPOSE_VIDEO_PROCESSING_MSG">**🎥 PROCESS VIDEO**
+
+⏳ Processing video...
+
+🟩🟩🟩⬜️⬜️⬜️⬜️⬜️⬜️</sentence>
+    <sentence id="REPURPOSE_VIDEO_SENDING_MSG">**🎥 PROCESS VIDEO**
+
+⏳ Sending video...
+
+🟩🟩🟩🟩🟩🟩⬜️⬜️⬜️</sentence>
+    <sentence id="REPURPOSE_VIDEO_COMPLETED_MSG">**🎥 PROCESS VIDEO**
+
+✅ Operation successfully completed.
+
+🟩🟩🟩🟩🟩🟩🟩🟩🟩</sentence>
+    <sentence id="REPURPOSE_VIDEO_PARAMS_MSG">**🎞 PROCESSED VIDEO**
+
+**Elapsed time**: __{video_elapsed_time} sec__
+
+**Used parameters**:
+```
+{video_params}
+```</sentence>
+    <sentence id="REPURPOSE_VIDEO_SEND_ERROR">**ERROR**
+❌ An unexpected error occurred while sending the video.</sentence>
+    <sentence id="REPURPOSE_VIDEO_PROCESS_ERROR">**ERROR**
+❌ An unexpected error occurred while processing the video.</sentence>
+
+    <sentence id="BACK_BTN">⬅️ Back</sentence>
+    <sentence id="START_MENU_BTN">↩️ Main Menu</sentence>
+    <sentence id="REPURPOSE_VIDEO_BTN">🎥 Process Video</sentence>
+    <sentence id="CONFIG_MAIN_MENU_BTN">📝 Configure Bot</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_BTN">👥 Bot Access</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_ADD_BTN">➕ Add Authorized Users</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_REMOVE_BTN">🗑️ Remove Authorized Users</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_SHOW_BTN">🔍 Show Authorized Users</sentence>
+    <sentence id="CONFIG_AUDIO_PARAMS_BTN">🔈 Audio Parameters</sentence>
+    <sentence id="CONFIG_VIDEO_PARAMS_BTN">🎞 Video Parameters</sentence>
+    <sentence id="CONFIG_MANAGE_PARAMS_BTN">🛠 Parameters Management</sentence>
+    <sentence id="CONFIG_FILTER_TOGGLE_BTN">🔌 Enable/Disable</sentence>
+    <sentence id="CONFIG_FILTER_ENABLE_BTN">🟢 Enable</sentence>
+    <sentence id="CONFIG_FILTER_DISABLE_BTN">🔴 Disable</sentence>
+    <sentence id="CONFIG_FILTER_SET_VALUE_BTN">✏️ Set Value</sentence>
+    <sentence id="CONFIG_LOAD_PARAMS_BTN">📥 Load Parameters from File</sentence>
+    <sentence id="CONFIG_SAVE_PARAMS_BTN">💾 Save Parameters to File</sentence>
+    <sentence id="CONFIG_SHOW_PARAMS_BTN">🔍 Show Parameters</sentence>
+    <sentence id="CONFIG_FILTERS_DOC_BTN">📔 Filters Documentation</sentence>
+    <sentence id="INFO_BOT_BTN">ℹ️ About Bot</sentence>
+
+    <sentence id="ENABLED_MSG">Enabled</sentence>
+    <sentence id="DISABLED_MSG">Disabled</sentence>
+</translation>

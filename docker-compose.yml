@@ -1,0 +1,21 @@
+services:
+  telegram-video-repurpose-bot:
+    build: .
+    container_name: telegram_video_repurpose_bot_container
+    environment:
+      - CONFIG_FILE=${CONFIG_FILE:-conf/config.ini}
+    restart: unless-stopped
+    stop_grace_period: 10s
+
+    volumes:
+      - ./app/conf:/code/conf:ro
+      - ./app/lang:/code/lang:ro
+      - ./app/session:/code/session
+      - ./app/logs:/code/logs
+      - ./app/video:/code/video
+
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

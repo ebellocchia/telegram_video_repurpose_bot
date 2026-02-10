@@ -1,0 +1,44 @@
+# Byte-compiled
+*~
+*.pyc
+*.pyo
+__pycache__/
+
+# Distribution
+build/
+dist/
+eggs/
+.eggs/
+sdist/
+*.egg-info/
+*.egg
+telegram_video_repurpose_bot-*/
+
+# Unit test / Coverage reports
+htmlcov
+.coverage
+.coverage.*
+.pytest_cache/
+.tox/
+
+# Environments
+.idea
+.env
+.venv
+env/
+venv/
+
+# mypy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Additional
+config_test.ini
+ffmpeg_params_test.ini
+*.log
+*.session
+*.session-shm
+*.session-wal
+*.session-journal

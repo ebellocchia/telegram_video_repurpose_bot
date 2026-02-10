@@ -1,0 +1,138 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "telegram_video_repurpose_bot"
+dynamic = ["version", "dependencies"]
+authors = [
+    {name = "Emanuele Bellocchia", email = "ebellocchia@gmail.com"}
+]
+maintainers = [
+    {name = "Emanuele Bellocchia", email = "ebellocchia@gmail.com"}
+]
+description = "Telegram bot for repurposing & uniquing videos"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.7"
+keywords = ["telegram", "bot", "telegram bot", "video", "repurpose", "uniquing", "video repurpose", "video uniquing", "video processing"]
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Development Status :: 5 - Production/Stable",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+]
+
+[project.urls]
+Homepage = "https://github.com/ebellocchia/telegram_video_repurpose_bot"
+Download = "https://github.com/ebellocchia/telegram_video_repurpose_bot/archive/v{version}.tar.gz"
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["app*", "build*", "dist*", "venv*"]
+
+[tool.setuptools.package-data]
+telegram_video_repurpose_bot = ["lang/lang_en.xml"]
+
+[tool.setuptools.dynamic]
+version = {attr = "telegram_video_repurpose_bot._version.__version__"}
+dependencies = {file = ["requirements.txt"]}
+optional-dependencies.develop = {file = ["requirements-dev.txt"]}
+
+#
+# Tools configuration
+#
+
+[tool.ruff]
+target-version = "py37"
+line-length = 140
+exclude = [
+    ".github",
+    ".eggs",
+    ".egg-info",
+    ".idea",
+    ".mypy_cache",
+    ".tox",
+    "build",
+    "dist",
+    "venv",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",      # pycodestyle errors
+    "W",      # pycodestyle warnings
+    "F",      # pyflakes
+    "I",      # pyflakes
+    "N",      # pep8-naming
+    "D",      # pydocstyle
+    "UP",     # pyupgrade
+    "C90",    # mccabe complexity
+    "PL",     # pylint
+]
+ignore = [
+    "N802",     # Function name should be lowercase
+    "N818",     # Exception name should be named with an Error suffix
+    "E231",     # Missing whitespace after ':'
+    "F821",     # Undefined name (Literal import for Python 3.7 compatibility)
+    "UP006",    # Use `type` instead of `Type` for type annotation (Python <3.9 compatibility)
+    "UP007",    # Use `X | Y` for type annotations (Python <3.10 compatibility)
+    "UP037",    # Remove quotes from type annotation (Literal import for Python 3.7 compatibility)
+    "UP045",    #  Use `X | None` for type annotations (Python <3.10 compatibility)
+    # pydocstyle
+    "D100",     # Missing docstring in public module
+    "D104",     # Missing docstring in public package
+    "D202",     # No blank lines allowed after function docstring
+    "D203",     # 1 blank line required before class docstring
+    "D205",     # 1 blank line required between summary line and description
+    "D212",     # Multi-line docstring summary should start at the first line
+    "D406",     # Section name should end with a newline
+    "D407",     # Missing dashed underline after section
+    "D413",     # Missing blank line after last section
+    "D415",     # First line should end with a period, question mark, or exclamation point
+    "D417",     # Missing argument description in the docstring: **kwargs
+    # pylint
+    "PLR0911",  # Too many return statements
+    "PLR0912",  # Too many branches
+    "PLR0913",  # Too many arguments
+    "PLR0915",  # Too many statements
+    "PLR2004",  # Magic value used in comparison
+]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401", "D104"]                # Imported but unused, missing docstring
+"app/bot.py" = ["UP031"]                        # Use format specifiers instead of percent format
+
+[tool.ruff.lint.isort]
+known-first-party = []
+lines-after-imports = 2
+combine-as-imports = false
+force-single-line = false
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.mccabe]
+max-complexity = 10
+
+[tool.mypy]
+python_version = "3.7"
+ignore_missing_imports = true
+follow_imports = "skip"
+exclude = [
+    "\\.github",
+    "\\.eggs",
+    "\\.egg-info",
+    "\\.idea",
+    "\\.ruff_cache",
+    "\\.tox",
+    "build",
+    "dist",
+    "venv",
+]

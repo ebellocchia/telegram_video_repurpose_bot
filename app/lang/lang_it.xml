@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<translation>
+    <sentence id="ALIVE_MSG">✅ Il bot è attivo.</sentence>
+    <sentence id="NO_USERNAME_ERR_MSG">❌ Devi impostare uno username per poter usare il bot.</sentence>
+    <sentence id="LOADING_MSG">⏳ Caricamento in corso...</sentence>
+    <sentence id="USER_AUTH_BOT_ERR_MSG">**ERRORE**
+❌ Non sei autorizzato a utilizzare il bot.</sentence>
+
+    <sentence id="GENERIC_ERR_MSG">❌ Si è verificato un errore inaspettato.
+
+Riprova di nuovo tra qualche istante.
+
+🆘 Se il problema persiste, contatta: {bot_support}</sentence>
+
+    <sentence id="START_MENU_MSG">**MENU PRINCIPALE**
+Ciao {name},
+benvenuto nel **Telegram Video Repurpose Bot**.
+
+👉 Usa i pulsanti sottostanti per interagire con il bot
+
+ℹ️ Puoi mostrare questo messaggio in qualunque momento digitando /help</sentence>
+
+    <sentence id="CONFIG_MAIN_MENU_MSG">**📝 CONFIGURAZIONE BOT**
+Seleziona il tipo di configurazione:</sentence>
+    <sentence id="CONFIG_FILTER_ACTION_SELECT_MSG">**⚙️ CONFIGURAZIONE FILTRO**
+Seleziona la funzione:</sentence>
+    <sentence id="CONFIG_FILTER_SELECT_MSG">**⚙️ CONFIGURAZIONE FILTRO**
+Seleziona il tipo di filtro:</sentence>
+    <sentence id="CONFIG_FILTER_PARAM_SELECT_MSG">**⚙️ CONFIGURAZIONE FILTRO**
+Seleziona il parametro del filtro __{filter_name}__ :</sentence>
+     <sentence id="CONFIG_FILTER_PARAM_SET_MSG">**⚙️ CONFIGURAZIONE FILTRO**
+Imposta il valore del parametro __{param_name}__ per il filtro __{filter_name}__:</sentence>
+    <sentence id="CONFIG_FILTER_PARAM_TOGGLE_MSG">**⚙️ CONFIGURAZIONE FILTRO**
+Stato attuale del filtro __{filter_name}__: **{curr_status}**</sentence>
+    <sentence id="CONFIG_FILTER_PARAM_SET_MSG">**⚙️ CONFIGURAZIONE FILTRO**
+Valore/i attuale/i del parametro __{param_name}__ per il filtro __{filter_name}__: **{param_val}**
+
+__Intervallo valori:__ **{param_lim}**
+
+Inserisci il nuovo valore o valori min/max (separati da uno spazio) in chat.
+
+{err_msg}</sentence>
+    <sentence id="CONFIG_FILTER_PARAM_UNNAMED_SET_MSG">**⚙⚙️ CONFIGURAZIONE FILTRO**
+Valore/i attuale/i del filtro __{filter_name}__: **{param_val}**
+
+__Intervallo valori:__ **{param_lim}**
+
+Inserisci il nuovo valore o valori min/max (separati da uno spazio) in chat.
+
+{err_msg}</sentence>
+    <sentence id="CONFIG_FILTER_PARAM_SET_ERR_MSG">❌ Il valore inserito non è valido.</sentence>
+
+
+    <sentence id="CONFIG_PARAMS_MANAGE_MSG">**⚙️ CONFIGURAZIONE PARAMETRI**
+Seleziona la funzione:</sentence>
+    <sentence id="CONFIG_PARAMS_LOADED_MSG">**⚙️ CONFIGURAZIONE PARAMETRI**
+✅️ Parametri caricati con successo.</sentence>
+    <sentence id="CONFIG_PARAMS_SAVED_MSG">**⚙️ CONFIGURAZIONE PARAMETRI**
+✅️ Parametri salvati con successo.</sentence>
+    <sentence id="CONFIG_PARAMS_SHOW_MSG">**🔍 STATO PARAMETRI**
+```
+{params_str}
+```</sentence>
+
+    <sentence id="CONFIG_BOT_ACCESS_MSG">**⚙️ CONFIGURAZIONE UTENTI**
+Seleziona la funzione:</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_ADD_MSG">**⚙️ CONFIGURAZIONE UTENTI**
+Inserisci gli username degli utenti da aggiungere, separati da uno spazio.
+
+**NOTA:** non viene controllato se gli username esistono</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_REMOVE_MSG">**⚙️ CONFIGURAZIONE UTENTI**
+Inserisci gli username degli utenti da rimuovere, separati da uno spazio:</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_ADDED_MSG">**⚙️ CONFIGURAZIONE UTENTI**
+✅ Utenti autorizzati aggiornati.</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_REMOVED_MSG">**⚙️ CONFIGURAZIONE UTENTI**
+✅ Utenti autorizzati aggiornati.</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_SHOW_EMPTY_MSG">**⚙️ CONFIGURAZIONE UTENTI**
+ℹ️ La lista degli utenti autorizzati è vuota.</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_SHOW_MSG">**⚙️ CONFIGURAZIONE UTENTI**
+
+ℹ️ Numero utenti: **{auth_users_cnt}**
+
+Lista utenti:
+{auth_users_list}</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_INPUT_ERR_MSG">**⚙️ CONFIGURAZIONE UTENTI**
+❌ Uno o più nomi utente inseriti non sono validi.</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_NOT_EXISTENT_ERR_MSG">**⚙️ CONFIGURAZIONE UTENTI**
+❌ Uno o più nomi utente non sono stati trovati nella lista degli utenti autorizzati.</sentence>
+
+    <sentence id="INFO_BOT_MSG">**ℹ️ INFO BOT**
+
+**Telegram Video Repurpose Bot**
+
+• Autore: __@emanueleb88__
+• Versione: __{version}__</sentence>
+
+    <sentence id="REPURPOSE_VIDEO_START_MSG">**🎥 PROCESSA VIDEO**
+Per processare un video, invia il file in chat.</sentence>
+    <sentence id="REPURPOSE_VIDEO_PROCESSING_MSG">**🎥 PROCESSA VIDEO**
+
+⏳ Processamento video in corso...
+
+🟩🟩🟩⬜️⬜️⬜️⬜️⬜️⬜️</sentence>
+    <sentence id="REPURPOSE_VIDEO_SENDING_MSG">**🎥 PROCESSA VIDEO**
+
+⏳ Invio video in corso...
+
+🟩🟩🟩🟩🟩🟩⬜️⬜️⬜️</sentence>
+    <sentence id="REPURPOSE_VIDEO_COMPLETED_MSG">**🎥 PROCESSA VIDEO**
+
+✅ Operazione completata con successo.
+
+🟩🟩🟩🟩🟩🟩🟩🟩🟩</sentence>
+    <sentence id="REPURPOSE_VIDEO_PARAMS_MSG">**🎞 VIDEO PROCESSATO**
+
+**Tempo impiegato**: __{video_elapsed_time} sec__
+
+**Parametri utilizzati**:
+```
+{video_params}
+```</sentence>
+    <sentence id="REPURPOSE_VIDEO_SEND_ERROR">**ERRORE**
+❌ Si è verificato un errore inaspettato durante l'invio del video.</sentence>
+    <sentence id="REPURPOSE_VIDEO_PROCESS_ERROR">**ERRORE**
+❌ Si è verificato un errore inaspettato durante il processamento del video.</sentence>
+
+    <sentence id="BACK_BTN">🔙 Indietro</sentence>
+    <sentence id="START_MENU_BTN">↩️ Menu Principale</sentence>
+    <sentence id="REPURPOSE_VIDEO_BTN">🎥 Processa Video</sentence>
+    <sentence id="CONFIG_MAIN_MENU_BTN">📝 Configura Bot</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_BTN">👥 Accesso Bot</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_ADD_BTN">➕ Aggiungi Utenti Autorizzati</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_REMOVE_BTN">🗑 Rimuovi Utenti Autorizzati</sentence>
+    <sentence id="CONFIG_BOT_ACCESS_SHOW_BTN">🔍 Mostra Utenti Autorizzati</sentence>
+    <sentence id="CONFIG_AUDIO_PARAMS_BTN">🔈 Parametri Audio</sentence>
+    <sentence id="CONFIG_VIDEO_PARAMS_BTN">🎞 Parametri Video</sentence>
+    <sentence id="CONFIG_FILTER_TOGGLE_BTN">🔌 Abilita/Disabilita</sentence>
+    <sentence id="CONFIG_FILTER_ENABLE_BTN">🟢 Abilita</sentence>
+    <sentence id="CONFIG_FILTER_DISABLE_BTN">🔴 Disabilita</sentence>
+    <sentence id="CONFIG_FILTER_SET_VALUE_BTN">✏️ Imposta Valore</sentence>
+    <sentence id="CONFIG_MANAGE_PARAMS_BTN">🛠 Gestione Parametri</sentence>
+    <sentence id="CONFIG_LOAD_PARAMS_BTN">📥 Carica Parametri da File</sentence>
+    <sentence id="CONFIG_SAVE_PARAMS_BTN">💾 Salva Parametri su File</sentence>
+    <sentence id="CONFIG_SHOW_PARAMS_BTN">🔍 Mostra Parametri</sentence>
+    <sentence id="CONFIG_FILTERS_DOC_BTN">📔 Documentazione Filtri</sentence>
+    <sentence id="INFO_BOT_BTN">ℹ️ Info Bot</sentence>
+
+    <sentence id="ENABLED_MSG">Abilitato</sentence>
+    <sentence id="DISABLED_MSG">Disabilitato</sentence>
+</translation>
