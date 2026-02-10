@@ -246,7 +246,7 @@ The configuration menu allows administrators to manage authorized users and adju
 
 - **Bot Access**: Add, remove, or view authorized users.
 
-<img src="https://github.com/ebellocchia/telegram_video_repurpose_bot/blob/asset/bot_access_menu.png" width="300px">
+<img src="https://github.com/ebellocchia/telegram_video_repurpose_bot/blob/main/asset/bot_access_menu.png" width="300px">
 
 - **Audio Parameters** / **Video Parameters**: Enable, disable, or modify specific FFmpeg filters.
 
