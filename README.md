@@ -1,5 +1,12 @@
 # Telegram Video Repurpose & Uniquing Bot
 
+| |
+|---|
+| [![PyPI - Version](https://img.shields.io/pypi/v/telegram_video_repurpose_bot.svg?logo=pypi&label=PyPI&logoColor=gold)](https://pypi.org/project/telegram_video_repurpose_bot/) [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/telegram_video_repurpose_bot.svg?logo=python&label=Python&logoColor=gold)](https://pypi.org/project/telegram_video_repurpose_bot/) [![GitHub License](https://img.shields.io/github/license/ebellocchia/telegram_video_repurpose_bot?label=License)](https://github.com/ebellocchia/telegram_video_repurpose_bot?tab=MIT-1-ov-file) |
+| [![Build](https://github.com/ebellocchia/telegram_video_repurpose_bot/actions/workflows/build.yml/badge.svg)](https://github.com/ebellocchia/telegram_video_repurpose_bot/actions/workflows/build.yml) [![Code Analysis](https://github.com/ebellocchia/telegram_video_repurpose_bot/actions/workflows/code-analysis.yml/badge.svg)](https://github.com/ebellocchia/telegram_video_repurpose_bot/actions/workflows/code-analysis.yml) |
+| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/a81c59455bb44b979f807ef5c96d674f)](https://app.codacy.com/gh/ebellocchia/telegram_video_repurpose_bot/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) [![CodeFactor](https://www.codefactor.io/repository/github/ebellocchia/telegram_video_repurpose_bot/badge)](https://www.codefactor.io/repository/github/ebellocchia/telegram_video_repurpose_bot) |
+| |
+
 ## Introduction
 
 Telegram bot based on *pyrotgfork* (a maintained fork of the *pyrogram* library).
@@ -227,7 +234,7 @@ As previously described, the bot implements a simple RBAC (Role-Based Access Con
 
 The bot GUI is intuitive and straightforward. The main menu consists of three primary options:
 
-<img src="asset/main_menu.png" width="400px">
+<img src="https://github.com/ebellocchia/telegram_video_repurpose_bot/blob/main/asset/main_menu.png" width="400px">
 
 - **Process Video**: Start processing a video file.
 - **Configure Bot**: Access bot configuration (restricted to administrators).
@@ -235,11 +242,11 @@ The bot GUI is intuitive and straightforward. The main menu consists of three pr
 
 The configuration menu allows administrators to manage authorized users and adjust FFmpeg parameters:
 
-<img src="asset/configure_menu.png" width="300px">
+<img src="https://github.com/ebellocchia/telegram_video_repurpose_bot/blob/main/asset/configure_menu.png" width="300px">
 
 - **Bot Access**: Add, remove, or view authorized users.
 
-<img src="asset/bot_access_menu.png" width="300px">
+<img src="https://github.com/ebellocchia/telegram_video_repurpose_bot/blob/asset/bot_access_menu.png" width="300px">
 
 - **Audio Parameters** / **Video Parameters**: Enable, disable, or modify specific FFmpeg filters.
 
@@ -247,14 +254,14 @@ The configuration menu allows administrators to manage authorized users and adju
 
 | | |
 |---|---|
-|<img src="asset/filter_menu.png" width="250px">|<img src="asset/filter_set_menu.png" width="400px">|
+|<img src="https://github.com/ebellocchia/telegram_video_repurpose_bot/blob/main/asset/filter_menu.png" width="250px">|<img src="https://github.com/ebellocchia/telegram_video_repurpose_bot/blob/main/asset/filter_set_menu.png" width="400px">|
 
 - **Parameters Management**: Save, load, or view FFmpeg configurations.
 
     - **Concept**: Changes made via the GUI are applied in-memory and will be lost if the bot restarts.
     To make changes permanent, they must be saved to file. Similarly, users can load from file to revert unsaved in-memory changes.
 
-<img src="asset/parameters_management_menu.png" width="300px">
+<img src="https://github.com/ebellocchia/telegram_video_repurpose_bot/blob/main/asset/parameters_management_menu.png" width="300px">
 
 - **Filters Documentation**: Opens the official FFmpeg documentation for detailed filter descriptions.
 
