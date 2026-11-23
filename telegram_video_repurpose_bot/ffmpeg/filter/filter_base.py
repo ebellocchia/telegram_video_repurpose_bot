@@ -287,13 +287,13 @@ class FilterBase(ABC):
         if isinstance(param_info, FilterRandomParamInfo):
             if not isinstance(value, param_info.param_type):
                 return False
-            if param_info.min.limit is None and param_info.max.limit is None:
-                return True
-            if param_info.max.limit is None:
-                return value >= param_info.min.limit
-            if param_info.min.limit is None:
-                return value <= param_info.max.limit
-            return param_info.min.limit <= value <= param_info.max.limit
+            min_limit = param_info.min.limit
+            max_limit = param_info.max.limit
+            if min_limit is None:
+                return max_limit is None or value <= max_limit
+            if max_limit is None:
+                return value >= min_limit
+            return min_limit <= value <= max_limit
 
     def __GenerateRandomParameterValue(self,
                                        param_info: FilterRandomParamInfo) -> Any:
